@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "\"><!--",
+      "setup": "\"><!--<img src=\"--><img src=x onerror=alert(37)//\">",
+      "run": "\"><!--<img src=\"--><img src=x onerror=alert(37)//\">",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "\"><!--",
+      "setup": "\"><!--<img src=\"--><img src=x onerror=alert(37)//\">",
+      "run": "\"><!--<img src=\"--><img src=x onerror=alert(37)//\">",
+      "input": "\"><!--<img src=\"--><img src=x onerror=alert(37)//\">",
+      "output": "\"><!--<img src=\"--><img src=x onerror=alert(37)//\">",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
